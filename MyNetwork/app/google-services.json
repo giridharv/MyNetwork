@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "293376710028",
+    "firebase_url": "https://mynetwork-923e3.firebaseio.com",
+    "project_id": "mynetwork-923e3",
+    "storage_bucket": "mynetwork-923e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293376710028:android:5d03e5a9c0ae0748",
+        "android_client_info": {
+          "package_name": "com.example.giridhar.mynetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293376710028-1c3bfn58o8mq5efa1s1s6lqesehv3tt8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.giridhar.mynetwork",
+            "certificate_hash": "ead666f10f0ee6cd2ba0e5984a2a26802c466be1"
+          }
+        },
+        {
+          "client_id": "293376710028-qoch6rv9sfnitkop3a3chv4igjuqnq3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGwpFZ4_VDuaPl5FZ_0qLnX5Y-n1FWvfY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293376710028-qoch6rv9sfnitkop3a3chv4igjuqnq3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

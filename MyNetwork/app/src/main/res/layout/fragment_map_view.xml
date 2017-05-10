@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="700dp"
+    android:layout_height="wrap_content"
+    tools:context="com.example.giridhar.mynetwork.MapViewFragment">
+
+
+    <Spinner
+        android:id="@+id/countrySpinner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_marginStart="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/stateSpinner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/countrySpinner"
+        android:layout_toEndOf="@+id/countrySpinner"
+        android:layout_marginStart="31dp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/countrySpinner"
+        android:layout_below="@+id/countrySpinner"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/year" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText10"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/countrySpinner"
+        android:hint="@string/filter" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_toEndOf="@+id/button2"
+        android:hint="@string/clearFilter"
+        android:layout_alignTop="@+id/button2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/editText10"
+        android:id="@+id/relativeLayout2">
+
+    </RelativeLayout>
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/relativeLayout2" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mapView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="69dp"
+        android:layout_marginEnd="18dp"
+        android:text="@string/loadMore" />
+</RelativeLayout>
